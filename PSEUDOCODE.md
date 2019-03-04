@@ -31,4 +31,9 @@ Make card in  MovieList a link
 Step 8
 When a user clicks on a movie card they should be taken to /movies/{id of movie here} to see the details for the selected movie.
 You will need to modify line 13 of Movie.js in order to accept the correct id for the movie selected.
-- Get the id passed on the URL - done
+- Get the id passed on the URL - Done
+
+Step 9
+Add functionality so the Home button on the SavedList component navigates back to home.
+- First, import { Link } from 'react-router-dom'; inside of Movie.js - Done
+- Make home-button in SavedList.js a Link - Done
