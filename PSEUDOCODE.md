@@ -13,3 +13,8 @@ Still inside the client folder run yarn start to run the client application. - D
  Step 5 Wrap your app with the router. 
 - Import BrowserRouter inside index.js - Done
 - Wrap <App /> component to ReactDOM.render() with new Router component. - Done
+
+Step 6 Inside your App file add two routes.
+- First, Import { Route } from 'react-router-dom' inside of App.js
+- one route for / that loads the MovieList component. - Done
+- one route that will take an id parameter after/movies/ (ex: /movies/2, /movies/3 where the id is dynamic). This route should load the Movie component - Done
