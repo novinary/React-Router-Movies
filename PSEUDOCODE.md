@@ -27,3 +27,8 @@ Make it so that the card in MovieList is a link,this should direct the user to t
 - First, import { Link } from 'react-router-dom'; inside of MovieList.js - Done
 Make card in  MovieList a link 
 - Done
+
+Step 8
+When a user clicks on a movie card they should be taken to /movies/{id of movie here} to see the details for the selected movie.
+You will need to modify line 13 of Movie.js in order to accept the correct id for the movie selected.
+- Get the id passed on the URL - done
