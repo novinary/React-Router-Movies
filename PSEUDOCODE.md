@@ -1,3 +1,4 @@
+** Part 1 **
 Step 1 
 In the root of this directory: Run yarn install to download dependencies. - Done
 
@@ -18,3 +19,11 @@ Step 6 Inside your App file add two routes.
 - First, Import { Route } from 'react-router-dom' inside of App.js
 - one route for / that loads the MovieList component. - Done
 - one route that will take an id parameter after/movies/ (ex: /movies/2, /movies/3 where the id is dynamic). This route should load the Movie component - Done
+
+
+** Part 2 ** 
+Step 7 
+Make it so that the card in MovieList is a link,this should direct the user to the /movies/{id of movie here} URL, where :id is the id of the individual movie.
+- First, import { Link } from 'react-router-dom'; inside of MovieList.js - Done
+Make card in  MovieList a link 
+- Done
