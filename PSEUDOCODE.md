@@ -10,5 +10,6 @@ In a separate terminal cd into the client folder and run yarn install to downloa
 Step 4
 Still inside the client folder run yarn start to run the client application. - Done
  
- Step 5
- Wrap your app with the router. - Done
+ Step 5 Wrap your app with the router. 
+- Import BrowserRouter inside index.js - Done
+- Wrap <App /> component to ReactDOM.render() with new Router component. - Done
