@@ -11,4 +11,4 @@ Step 4
 Still inside the client folder run yarn start to run the client application. - Done
  
  Step 5
- Wrap your app with the router.
+ Wrap your app with the router. - Done
