@@ -50,3 +50,8 @@ You will notice there is a 'Saved Movies' component that we are not currently us
 - Uncomment componentWillReceiveProps function in Movie.js - Done
  Uncomment saveMovie function in Movie.js - Done
 - Once you have done that you will need to add a click handler to the save button. - Done
+
+Turn your Saved Movie list into Links.
+You will need to uncomment lines 29-39 in Movie.js to complete this. Your list of saved movies should be links to the movie itself. Study and understand what the saveMovie function is doing. -
+
+Turn your Saved Movie Links into NavLinks.
