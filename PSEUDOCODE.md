@@ -42,4 +42,4 @@ Add functionality so the Home button on the SavedList component navigates back t
 Refactor so that our code is DRY.
 You may notice that we are using essentially the same exact JSX code in the Movie component and the MovieDetails component in MovieList.js 
 - create a new component in MovieCard.js that returns this JSX code.  - Done
-- Then remove the old code from Movie and MovieDetails and instead return the new MovieCard component.
+- Then remove the old code from Movie and MovieDetails and instead return the new MovieCard component. - Done 
