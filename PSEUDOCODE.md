@@ -49,4 +49,4 @@ You will notice there is a 'Saved Movies' component that we are not currently us
 - You will need to pass the addToSavedList function to the Movie component. Use the render prop instead of the component prop in App.js. - Done
 - Uncomment componentWillReceiveProps function in Movie.js - Done
  Uncomment saveMovie function in Movie.js - Done
-- Once you have done that you will need to add a click handler to the save button. - 
+- Once you have done that you will need to add a click handler to the save button. - Done
