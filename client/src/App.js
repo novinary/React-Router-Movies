@@ -28,7 +28,11 @@ export default class App extends Component {
           {/* including the exact prop on your Route component it will set it to true and only mount our Home component when the specific path / is requested 
           and not when /about is requested. */}
         <Route exact path="/" component={MovieList} />
-        <Route path="/movies/:id/" component={Movie} />
+        {/* Use the render prop instead of the component prop */}
+        <Route path="/movies/:id" render={(props) => 
+        <Movie {...props} addToSavedList={this.addToSavedList} 
+        />}
+				/>
         </div>
       </div>
     );
